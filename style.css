@@ -1,0 +1,20 @@
+  /* Section Selector Styles*/
+
+
+
+  /* Section Class Styles */
+
+  .boss-Cave-Background {
+    background-image: url(./images/Cave_Interior.png);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: 50% 65%;
+  }
+
+  .boss-Cave {
+    background-image: url(./images/Spooky_Boss.png);
+    min-height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
