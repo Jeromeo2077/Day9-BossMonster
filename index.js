@@ -14,6 +14,7 @@ const heroes = [
 ]
 
 const boss = {
+  name: "Death's Head",
   health: 100,
   maxHealth: 100,
   damage: 5,
@@ -41,9 +42,12 @@ function drawHeroes() {
     damageElm.innerHTML = `<span>Damage: ${hero.damage}</span>`
 
   })
-
 }
 
+function drawBossDamage() {
+
+
+}
 
 function heroDamage() {
   let totalHeroDamage = 0
