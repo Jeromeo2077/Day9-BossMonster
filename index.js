@@ -20,6 +20,8 @@ const boss = {
   level: 1
 }
 
+drawHeroes()
+
 function drawHeroes() {
   heroes.forEach((hero) => {
     let heroElm = document.getElementById(hero.name)
@@ -46,10 +48,10 @@ function drawHeroes() {
 function heroDamage() {
   let totalHeroDamage = 0
 
-  heroes.filter(hero => {
-    heroes.forEach((hero) => totalHeroDamage += hero.damage)
-    console.log(hero.name, hero.damage, totalHeroDamage)
-  })
-  //... Reduce the boss health and update the boss's health on the page
+  heroes.forEach((hero) => totalHeroDamage += hero.damage)
+
+  //console.log(totalHeroDamage)
+
+  boss.health = totalHeroDamage
 }
 
