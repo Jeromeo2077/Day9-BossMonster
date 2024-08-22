@@ -18,3 +18,13 @@
     background-size: cover;
     background-position: center;
   }
+
+  .heroCard {
+    /* aspect-ratio: 1/1; */
+    /* background-image: url(./images/gravel.png); */
+    /* background-size: cover; */
+    /* background-position: center; */
+    background-color: #000000;
+    border: 4px rgb(0, 0, 0);
+    box-shadow: inset 0px -10px 12px rgba(0, 0, 0, 0.363);
+  }
